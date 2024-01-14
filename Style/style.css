@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav section style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* header section title */
+.header-title {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.header-paragraph {
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.header-container{
+    display: flex;
+    margin: 80px 100px  0px;
+    gap: 140px;
+    align-items: center;
+}
+
+.btn-1 {
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+.image{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+}
+.logo{
+    
+    margin: 140px 150px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+/* Responsive Layout */
+/* Mobile or small device style */
+
+@media screen and (max-width : 576px){
+    nav, 
+    .header-container{
+        flex-direction: column;
+    }
+
+    .nav-title{
+        font-size: 1.50rem;
+    }
+}
