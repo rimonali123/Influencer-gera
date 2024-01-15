@@ -5,87 +5,77 @@
 }
 
 /* nav section style */
-nav {
+
+.nav-container {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 100px;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .nav-title {
-    color: #3A3A3A;
+    width: 50%;
+    /* border: 1px solid blue; */
     font-size: 1.5rem;
+    color: #3A3A3A;
     font-weight: 700;
-
+    display: block;
 }
 
-nav>ul {
+.nav-icon {
+    width: 50%;
+    /* border:1px solid blue; */
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    color: #3A3A3A;
+    font-weight: 600;
+
 }
 
-nav li {
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav a {
+.nav-icon a {
     text-decoration: none;
+
+}
+
+/* header style */
+.header-container {
+    /* border: 2px solid green; */
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-content {
+    width: 50%;
     color: #3A3A3A;
 }
 
-/* header section title */
-.header-title {
-    color: #3A3A3A;
+.header-content h2 {
     font-size: 3.25rem;
     font-weight: 700;
 }
 
-.header-paragraph {
-    color: #3A3A3A;
+.header-content p {
     font-weight: 600;
 }
-.header-container{
-    display: flex;
-    margin: 80px 100px  0px;
-    gap: 140px;
-    align-items: center;
-}
 
-.btn-1 {
+.common-btn {
     border-radius: 41px;
     background: #E02C6D;
-    display: inline-flex;
-    padding: 10px 24px;
-    align-items: flex-start;
-    gap: 8px;
+    color: #FFF;
     font-weight: 700;
-    color: #fff;
+    align-items: center;
+    display: flex;
     border: none;
+    height: 40px;
 }
-.image{
+
+.header-img-container {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
 }
-.logo{
-    
-    margin: 140px 150px 0px;
+
+.header-container {
     display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-
-/* Responsive Layout */
-/* Mobile or small device style */
-
-@media screen and (max-width : 576px){
-    nav, 
-    .header-container{
-        flex-direction: column;
-    }
-
-    .nav-title{
-        font-size: 1.50rem;
-    }
+    justify-content: space-between;
 }

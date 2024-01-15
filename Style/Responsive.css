@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+    header{
+        margin: 10px 20px;
+    }
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+    /* finish nav style */
+
+
+    .header-container {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .header-content{
+        width:100%;
+        order: 2;
+        text-align: center;
+        display: block;
+        
+    }
+    .header-content h2{
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+    .header-content p{
+        font-size: 0.87rem;
+        font-weight: 500;
+    }
+    .common-btn{
+        margin: 0 auto;
+    }
+    .header-img-container img{
+        max-width: 100%; 
+        
+    }
+
+}
+
+
+
+
+
+/* Medium Device or Tablet */
+@media screen and (max-width : 960px) {
+    .header-container {
+        flex-direction: column;  
+        text-align: center;
+    }
+    .header-img-container{
+        background-attachment: fixed;
+        align-items: center;
+        
+    }
+}
