@@ -92,7 +92,7 @@
 
 /* main section style */
 main {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -114,4 +114,26 @@ main {
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(3,1fr);
+}
+.last-section{
+    max-width: 1250px;
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-top: 50px;
+}
+.last-image{
+    width: 50%;
+}
+.content{
+    width: 50%;
+}
+.content h2{
+    color: #0A0826;
+    font-size: 2.35rem;
+    font-weight: 700;
+}
+.content p{
+    color: #6C6C6C;
+    font-weight: 700;
+    width: 90%;
 }
